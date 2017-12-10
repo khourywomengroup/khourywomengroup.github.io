@@ -17,6 +17,13 @@
 
 	$(function() {
 
+		// Uncomment this for smooth scroll between sections
+		// $.scrollify({
+		// 				section : ".scroll-section",
+		// 				interstitialSection:"#header,#footer",
+		// 				setHeights: false
+		// 			});
+
 		var	$window = $(window),
 			$body = $('body'),
 			$main = $('#main');
