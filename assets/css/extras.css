@@ -9,3 +9,12 @@ position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
 position: absolute; top:0; left: 0; width: 100%; height: 100%;
 
 }
+
+.resources-img {
+  border-style: none !important;
+}
+
+.resources-img img {
+  max-width: 200px;
+
+}
