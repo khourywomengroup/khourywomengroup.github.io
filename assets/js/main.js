@@ -141,6 +141,17 @@
 				speed: 1000
 			});
 
+			//Organizers clicks:
+			$( ".organizers" ).click(function(e) {
+				var name = $(this).attr('id');
+				if (name === 'sophie') {
+					window.location.href = "http://sspatharioti.github.io";
+				}
+				if (name === 'elin') {
+				window.location.href = "https://www.ccis.northeastern.edu/people/elin-carstensdottir/";
+			}
+			});
+
 	});
 
 })(jQuery);
