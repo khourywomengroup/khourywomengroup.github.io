@@ -26,6 +26,16 @@
 						<span class="logo ccis-logo"><img src="images/ccis_women_log.svg" alt="" /></span>
 						<h1>CCIS PhD Women Group</h1>
 						<p> Catalog of useful resources. Please note that some of these are not exclusive to women. </p>
+						<p> Jump To:
+							<a data-scroll href="#all_year">All</a> |
+							<a data-scroll href="#first_year">First </a> |
+							<a data-scroll href="#second_year">Second </a> |
+							<a data-scroll href="#third_year">Third </a> |
+							<a data-scroll href="#fourth_year">Fourth </a> Year
+
+
+						</p>
+
 					</header>
 
 				<!-- Main -->
@@ -56,7 +66,7 @@
 
 						<!-- Facebook Emergin Scholar (1-2 year && underrepresented minorities) -->
 						<section  class="main">
-							<div class="spotlight">
+							<div id="all_year" class="spotlight">
 								<div class="content">
 									<header class="major">
 										<a href="https://www.womentechmakers.com/scholars" target="_blank">
@@ -81,7 +91,7 @@
 
 						<!-- Facebook Emerging Scholar (1-2 year && underrepresented minorities) -->
 						<section  class="main">
-							<div class="spotlight">
+							<div id="first_year" class="spotlight">
 								<div class="content">
 									<header class="major">
 										<a href="https://research.fb.com/programs/emerging-scholars/" target="_blank">
@@ -161,7 +171,7 @@
 
 						<!-- MSR Ada Lovelace (2nd year) -->
 						<section  class="main">
-							<div class="spotlight">
+							<div id="second_year" class="spotlight">
 								<div class="content">
 									<header class="major">
 										<a href="https://www.microsoft.com/en-us/research/academic-program/ada-lovelace-fellowship/" target="_blank">
@@ -188,7 +198,7 @@
 
 						<!-- MSR Fellowship (3rd year) -->
 						<section  class="main">
-							<div class="spotlight">
+							<div id="third_year" class="spotlight">
 								<div class="content">
 									<header class="major">
 										<a href="https://www.microsoft.com/en-us/research/academic-program/phd-fellowship-program/" target="_blank">
@@ -265,7 +275,7 @@
 
 						<!-- MSR Fellowship (4rth year) -->
 						<section  class="main">
-							<div class="spotlight">
+							<div id="fourth_year" class="spotlight">
 								<div class="content">
 									<header class="major">
 										<a href="https://www.microsoft.com/en-us/research/academic-program/dissertation-grant/" target="_blank">
@@ -340,6 +350,10 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+			<script>
+				var scroll = new SmoothScroll('a[href*="#"]');
+			</script>
 
 	</body>
 </html>
