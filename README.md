@@ -1,6 +1,12 @@
 # CCIS PhD Women Group Page
 Welcome to the CCIS PhD Women Group Github Page, a repository for all resources regarding the group, as well as the group website. This README will also serve as a guideline for future group organizers. 
 
+## Current Organizers:
+
+* [Sophie Spatharioti](sspatharioti.com)
+
+* Lydia Zakynthinou
+
 ## Resources
 The group maintains several resources:
 
