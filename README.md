@@ -3,7 +3,8 @@ Welcome to the CCIS PhD Women Group Github Page, a repository for all resources 
 
 ## Current Organizers:
 
-* Sophie Spatharioti
+* [Sophie Spatharioti](sspatharioti.com)
+
 * Lydia Zakynthinou
 
 ## Resources
