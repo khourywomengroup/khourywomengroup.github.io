@@ -12,7 +12,7 @@ The group maintains several resources:
 
 ### Website
 
-Link: https://ccisphdwomen.github.io/
+Link: https://khourywomengroup.github.io/
 
 The website is made using Github pages and is simple and mostly static. The main purpose of the website is to gather all available resources into one place for easy access. A contact gmail for the group is maintained at ccisphdwomen [at] gmail [dot] com
 
