@@ -58,7 +58,7 @@
 												<h2>About Us</h2>
 											</header>
 											<div>
-												<p>We are a networking group for woman-identified and non-binary PhD students
+												<p>We are a networking group for woman-identifying and non-binary PhD students
 													in Khoury College of Computer Sciences at Northeastern University.
 													The group is meant to serve as a platform for networking, discussion of special interest
 													topics, and as a neutral and safe social space for its members.
@@ -169,17 +169,21 @@
 							<section id="second" class="main special scroll-section">
 								<header class="major">
 									<h2>Events</h2>
-									<p>Feeling lost? The Khoury PhD Women Group Calendar is regularly updated with upcoming events
+									<p>The Khoury PhD Women Group Calendar is regularly updated with upcoming events
 									and meetings, as well as events of interest not organized by the group. </p>
 								</header>
 								<div class="responsiveCal">
-									<iframe src="https://calendar.google.com/calendar/embed?src=9767uu52km71cilkie2l6khgi8%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+									<!-- <iframe src="https://calendar.google.com/calendar/embed?src=9767uu52km71cilkie2l6khgi8%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+									<iframe src="https://outlook.office365.com/calendar/published/673cb48d837141e58a9835f1751cb42e@northeastern.edu/29e0739217554ba486b4cea69bcd297d6804586593007014785/calendar.html" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 								</div>
 								<footer class="major">
 									<ul class="actions">
-										<li><a href="https://calendar.google.com/calendar?cid=OTc2N3V1NTJrbTcxY2lsa2llMmw2a2hnaThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" class="button">Visit Calendar</a></li>
+									<!-- <li><a href="https://calendar.google.com/calendar?cid=OTc2N3V1NTJrbTcxY2lsa2llMmw2a2hnaThAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" class="button">Visit Calendar</a></li> -->
+									<!-- <li><a href="https://outlook.office365.com/owa/calendar/673cb48d837141e58a9835f1751cb42e@northeastern.edu/29e0739217554ba486b4cea69bcd297d6804586593007014785/calendar.ics" class="button">Download .ics</a></li> -->
+									<li><a class="button" onclick="myFunction()">Copy ics link for subscription in your calendar app</a></li>
 									</ul>
-								</footer>
+									
+							</footer>
 
 								<!-- <ul class="statistics">
 									<li class="style1">
@@ -276,6 +280,21 @@
 			<script src="assets/js/main.js"></script>
 			<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"></script> -->
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.17/jquery.scrollify.js"></script>
+			<script src="dist/clipboard.min.js"></script>
+			<script>
+				function myFunction() {
+					/* Get the text field */
+					var copyText = document.getElementById("myInput");
 
-	</body>
-</html>
+					/* Select the text field */
+					copyText.select();
+					copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+					/* Copy the text inside the text field */
+					document.execCommand("copy");
+
+					/* Alert the copied text */
+					alert("Copied the text: " + copyText.value);
+					}
+				</script>
+				<input disabled="disabled" type="text" value="https://outlook.office365.com/owa/calendar/673cb48d837141e58a9835f1751cb42e@northeastern.edu/29e0739217554ba486b4cea69bcd297d6804586593007014785/calendar.ics" id="myInput">
